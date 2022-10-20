@@ -3,7 +3,8 @@ package com.learn.joblisting.models;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 import java.util.Arrays;
-
+//Simple pojo class for the data implementation. contain getters and setters, toString and constructor.
+// This is mapped into PostRepository interface...
 @Document(collection =  "JobPost")
 public class Post {
     private String profile;
